@@ -8,26 +8,47 @@
     <title>Angular</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="lib/bootstrap.min.js">
 </head>
 
-<body>
+<body style="margin: 0 5px;">
     <approot></approot>
     <script src="lib/angular.min.js"></script>
-    <script srf="lib/jquery.min.js"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/popper.min.js"></script>
     <script src="lib/angular-route.min.js"></script>
 
     <!-- APP -->
     <script src="app.js"></script>
+    <script src="components/layout.js"></script>
 
     <!-- ROUTE -->
     <script src="config/router.js"></script>
 
     <!-- CONTROLLER -->
-    <script src="controller/LanchoneteController.js"></script>
+    <script src="controller/ClienteController.js"></script>
+    <script src="controller/CategoriaController.js"></script>
+    <script src="controller/CardapioController.js"></script>
+    <script src="controller/ComboController.js"></script>
+    <script src="controller/EstoqueController.js"></script>
+    <script src="controller/LancheController.js"></script>
+    <script src="controller/ProdutoController.js"></script>
+    <script src="controller/PedidoController.js"></script>
+    <script src="controller/VendaController.js"></script>
 
     <!-- SERVICES -->
-    <script src="services/LanchoneteService.js"></script>
+    <script src="services/ClienteService.js"></script>
+    <script src="services/CategoriaService.js"></script>
+    <script src="services/CardapioService.js"></script>
+    <script src="services/ComboService.js"></script>
+    <script src="services/EstoqueService.js"></script>
+    <script src="services/LancheService.js"></script>
+    <script src="services/ProdutoService.js"></script>
+    <script src="services/PedidoService.js"></script>
+    <script src="services/VendaService.js"></script>
+
+    <script src="utils/HttpConfig.js"></script>
 
 </body>
 
